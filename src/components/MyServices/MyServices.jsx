@@ -14,18 +14,18 @@ const MyServices = () => {
         />
         <Card
           logo = {'award'}
-          tittle = {'Optimizacion de SEO'}
-          description = {'Auditoria de tu sitio web para la busqueda de una mejora en el posicionamiento de los motores de busqueda.'}
+          tittle = {'Optimización de SEO'}
+          description = {'Auditoria de tu sitio web para la búsqueda de una mejora en el posicionamiento de los motores de búsqueda.'}
         />
         <Card
           logo = {'key'}
           tittle = {'Data Base'}
-          description = {'Instalacion y configuacion de certificado SSL en tu sitio. Redireccion y configuraciones de tu sitio web o hosting.'}
+          description = {'Instalación y configuración de certificado SSL en tu sitio. Redirección y configuraciones de tu sitio web o hosting.'}
         />
         <Card
           logo = {'eye'}
           tittle = {'Responsibe'}
-          description = {'Diseno adaptable a distintos dispositivos para que tu web sea visible de manera optima en todo tipo de resolucion.'}
+          description = {'Diseño adaptable a distintos dispositivos para que tu web sea visible de manera optima en todo tipo de resolución.'}
         />
       </ContainerServices>
     </Container>
