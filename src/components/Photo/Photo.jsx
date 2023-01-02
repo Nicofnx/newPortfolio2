@@ -8,10 +8,15 @@ const Photo = () => {
         <MyProfesion>Front End Developer</MyProfesion>
         <Redes>
           <Logo>
-            <FeatherIcon icon="linkedin" />
+            <a href="https://www.linkedin.com/in/nicolas-rodriguez-fnx" target='_blank'>
+              <FeatherIcon icon="linkedin" />
+            </a>
+            
           </Logo>
           <Logo>
-            <FeatherIcon icon="github" />
+            <a href="https://github.com/Nicofnx" target='_blank'> 
+              <FeatherIcon icon="github" />
+            </a>
           </Logo>
         </Redes>
       </ContainerImg>

@@ -69,4 +69,13 @@ transition: all 200ms ease-in-out;
 &:hover{
   color: #52ba85;
 }
+
+  a{
+    color: #ffffff;
+    transition: all 200ms ease-in-out;
+  }
+
+  a:hover{
+    color: #52ba85;
+  }
 `
