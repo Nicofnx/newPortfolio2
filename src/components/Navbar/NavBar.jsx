@@ -34,25 +34,25 @@ const NavBar = () =>{
         <Logo>
           <a href='#about'>
             <FontAwesomeIcon className='fa-1x' icon={faUser} />
-            <SpanMenu isOpen={openMenu} >About me</SpanMenu>
+            <SpanMenu isOpen={openMenu} >Sobre mi</SpanMenu>
           </a>
         </Logo>
         <Logo>
           <a href="#service">
             <FontAwesomeIcon className='fa-1x' icon={faPhone} />
-            <SpanMenu isOpen={openMenu} >Services</SpanMenu>
+            <SpanMenu isOpen={openMenu} >Servicios</SpanMenu>
           </a>
         </Logo>
         <Logo>
           <a href="#portfolio">
             <FontAwesomeIcon className='fa-1x' icon={faBriefcase} />
-            <SpanMenu isOpen={openMenu} >Portfolio</SpanMenu>
+            <SpanMenu isOpen={openMenu} >Proyectos</SpanMenu>
           </a>
         </Logo>
         <Logo>
           <a href="#contact">
             <FontAwesomeIcon className='fa-1x' icon={faUser} />
-            <SpanMenu isOpen={openMenu} >Contact</SpanMenu>
+            <SpanMenu isOpen={openMenu} >Contacto</SpanMenu>
           </a>
         </Logo>
       </ContainerIcons>

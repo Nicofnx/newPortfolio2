@@ -10,7 +10,7 @@ import CardPortfolio from '../CardPortfolio/CardPortfolio'
 const MyPortfolio = () => {
   return(
     <Container id='portfolio'>
-      <Tittle>my portfolio</Tittle>
+      <Tittle>mis proyectos</Tittle>
       <CardPortfolio
         tittle={'Ecommerce'}
         description={'Proyecto React de un Ecommerce donde utilizo distintos tipos de vista como modales o ruteo con React Router, distintos tipos de filtrados, context para el manejo de carrito, Firebase para el manejo de base de datos, entre otras cosas.'}

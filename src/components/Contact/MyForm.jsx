@@ -50,7 +50,7 @@ const MyForm = () => {
 
     return( 
       <Container id ='contact'>
-        <h2>Contact</h2>
+        <h2>Contacto</h2>
         
         <form onSubmit={handleSubmit}>
             <div>

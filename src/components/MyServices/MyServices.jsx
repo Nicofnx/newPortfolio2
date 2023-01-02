@@ -5,7 +5,7 @@ import {Container, Tittle, ContainerServices } from './myServices.styles'
 const MyServices = () => {
   return(
     <Container id='service'>
-      <Tittle>my services</Tittle>
+      <Tittle>mis servicios</Tittle>
       <ContainerServices>
         <Card
           logo = {'monitor'}

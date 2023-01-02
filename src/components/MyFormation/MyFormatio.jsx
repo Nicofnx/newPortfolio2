@@ -28,7 +28,7 @@ const MyFormation = () => {
 
   return(
     <Container id='formation'>
-      <Tittle>my formation</Tittle>
+      <Tittle>mi formación</Tittle>
       <ConainerCertificadoCarrera>
         <img id={0} src={certShow} onClick={handleCertSelected} alt="Certificado carrera React" />
       </ConainerCertificadoCarrera>
