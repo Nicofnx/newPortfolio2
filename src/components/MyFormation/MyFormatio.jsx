@@ -23,7 +23,7 @@ const MyFormation = () => {
     setCertShow(certificados[targetId])
     setTimeout(() => {
       setCertShow(certificados[0])
-    }, 6000);
+    }, 10000);
   }
 
   return(

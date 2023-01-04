@@ -71,18 +71,22 @@ export const MyDescription = styled.p`
 
 export const ContainerSkills = styled.div`
   display:flex;
-  justify-content: center;
-  gap: 40px;
-  margin: 20px 0 0 0;
+  justify-content: flex-start;
+  gap: 60px;
+  margin: 20px 0 0 20px;
 
   ul{
     li{
       list-style-type:circle;
       list-style-position: outside;
       color: #52ba85;
+      font-size: 20px;
+      text-transform: uppercase;
+      
       
       span{
         color: #b9b9b9;
+        
       }
     }
   }
