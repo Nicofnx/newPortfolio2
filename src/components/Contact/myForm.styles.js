@@ -63,6 +63,7 @@ export const Container = styled.div`
         color: #ddd;
         font-size: 16px;
         border: 1px solid #52ba85;
+        resize: none
       }
 
       textarea:focus{
