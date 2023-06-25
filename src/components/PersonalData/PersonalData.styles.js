@@ -71,7 +71,7 @@ export const MyDescription = styled.p`
 
 export const ContainerSkills = styled.div`
   display:flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 60px;
   margin: 20px 0 0 20px;
 
