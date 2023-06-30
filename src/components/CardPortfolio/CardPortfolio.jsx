@@ -13,8 +13,8 @@ const CardPortfolio = (props) => {
           <p>{description}</p>
         </Texts>
         <Buttoms>
-          <a href={demo} target="_blank"> <Buttom isprimary={true}>Ver Demo</Buttom> </a>
-          <a href={code} target="_blank"> <Buttom isprimary={false}>Ver Code</Buttom> </a> 
+          <a href={demo} target="_blank" rel="noferrerer noreferrer"> <Buttom isprimary={true}>Ver Demo</Buttom> </a>
+          <a href={code} target="_blank" rel="noferrerer noreferrer"> <Buttom isprimary={false}>Ver Code</Buttom> </a> 
         </Buttoms>
       </ContainerData>
 

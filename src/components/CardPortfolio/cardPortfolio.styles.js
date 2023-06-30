@@ -100,7 +100,7 @@ export const Buttom = styled.button`
 
   @media (max-width: 500px) {
       font-size: 14px;
-      padding: 10px 40px;
+      padding: 10px 30px;
     }
 
   ${({isprimary})=>!isprimary && `

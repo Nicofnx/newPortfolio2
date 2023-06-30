@@ -17,10 +17,12 @@ export const ContainerImg = styled.div`
   justify-content: flex-end;
   border-radius: 5px;
   
+  
   @media (max-width: 500px) {
+    background-image: none;
     width: 100%;
-    height: 200px;
-    position:static;
+    height: 150px;
+    position: static;    
     padding: 15px 0 5px;
     justify-content: flex-end;
   }
@@ -36,6 +38,7 @@ color: #fff;
 
 @media (max-width: 500px) {
   margin-bottom: 5px;
+  line-height: 35px;
 }
 `
 export const MyProfesion = styled.p`

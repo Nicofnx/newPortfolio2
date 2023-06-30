@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import {Container, BtnSubmit} from './myForm.styles'
-import { useCallback, useEffect, useState } from "react";
+import { useState } from "react";
 import emailjs from 'emailjs-com'
 
 const MyForm = () => {
@@ -61,7 +61,7 @@ const MyForm = () => {
             </div>
             <div>
                 <label>Email</label>
-                <input placeholder="Tu email..." value={contact.userEmail} name="userEmail" onChange={handleChange} type="email" /* {...register('userEmail', {
+                <input placeholder="Tu email..." value={contact.userEmail} name="userEmail" onChange={handleChange} type="email" required/* {...register('userEmail', {
                     required: true,
                     pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i
                 })}  *//>
@@ -76,9 +76,9 @@ const MyForm = () => {
                 {errors.emailDetails?.type === 'required' && <p>Dejame un mensaje</p>}
             </div>
             <p>Gracias <span>{contact.emailTitle}</span> por contactarte con migo. </p>
+            { showMessage ? <span role="alert">Email enviado correctamente!!</span> : null}
             <BtnSubmit type="submit" value="Enviar" />
         </form>
-        { showMessage ? <p role="alert">Email enviado correctamente!!</p> : ``}
       </Container>
   ) 
 

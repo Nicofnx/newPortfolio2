@@ -53,7 +53,7 @@ export const InfoMe = styled.p`
   }
 `
 
-export const MyDescription = styled.p`
+export const MyDescription = styled.div`
   font-size: 16px;
   margin: 15px 20px 15px 0;
   padding: 10px 20px 40px 0px;
